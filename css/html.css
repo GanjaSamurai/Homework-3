@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+ul {
+    list-style: none;                                                                                                              
+}
+
+
+
+.header {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color:#95E1D3;
+    width: 150px;
+    height: 60px;
+    padding-left: 360px;
+
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.subtitle {
+    font-family: Kaushan Script;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.category-name  {
+    padding-bottom: 20px;
+
+    //styleName: uppercase;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.category-content {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #B6B6B6;
+    
+    
+}
+.Names {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding-top: 30px;
+}
+.menu {
+    display: flex;
+    padding-right: 360px;
+}
+
+hr {
+    height: 4px;
+    background: #F38181;
+    width: 4%;
+    margin: 0 48% 0 48%;
+    border-width: 0px;
+}
+
+.footer-hr {
+    height: 1px;
+    width: 70%;
+    margin: 0 15% 10px 15%;
+    border-width: 0px;
+    border: 1px solid #B6B6B6;
+
+}
+
+.menu-item {
+    margin-left: 55px;
+}
+
+
+.menu-item:hover a {
+    color:  #F38181;
+    
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+   
+}
+
+
+.block {
+    padding: 40px;
+    width: 33.333%;
+}
+
+.before-images {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+
+    padding-bottom: 27px;
+    padding-top: 45px;
+    color:  #B6B6B6;
+
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.branch {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding-bottom: 80px;
+}
+
+/* .gradient:hover {
+    
+background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
+background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
+
+
+}*/
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+button {
+    background-color:  #95E1D3;
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+
+    border: 0px;
+    margin: 0px 15%;
+    padding: 11px 38px 12px 38px;
+}
+
+.footer-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    margin: 0px 15%;
+}
+
+
+
+input {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    padding: 10px 38px 10px 38px;
+
+}
+
+.footer-div {
+    display: flex;
+    margin: 0px 18%;
+}
